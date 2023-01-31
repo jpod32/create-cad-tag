@@ -1,0 +1,35 @@
+{
+  "name": "create-cad-tag",
+  "version": "1.0.0",
+  "description": "Generate computer aided dispatch system-style unit tags",
+  "homepage": "https://github.com/jpod32/create-cad-tag#readme",
+  "bugs": {
+    "url": "https://github.com/jpod32/create-cad-tag/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jpod32/create-cad-tag.git"
+  },
+  "license": "MIT",
+  "author": "jpod32",
+  "type": "module",
+  "bin": "dist/bin.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
+  "dependencies": {
+    "canvas": "^2.11.0",
+    "chalk": "^5.2.0",
+    "prompts": "^2.4.2"
+  },
+  "devDependencies": {
+    "@types/prompts": "^2.4.2",
+    "prettier": "^2.8.3",
+    "tsup": "^6.5.0",
+    "typescript": "^4.9.5"
+  }
+}
